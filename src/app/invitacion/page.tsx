@@ -4,6 +4,7 @@ import InfoPadres from "@/src/components/invitacion/InfoPadres";
 import Ubicaciones from "@/src/components/invitacion/Ubicaciones";
 import Countdown from "@/src/components/invitacion/Coutdown";
 import Itinerario from "@/src/components/invitacion/Itinerario";
+import MusicPlayer from "@/src/components/invitacion/MusicPlayer";
 import DressCode from "@/src/components/invitacion/DressCode";
 import PhotoCarousel from "@/src/components/invitacion/PhotoCarousel";
 import Contact from "@/src/components/invitacion/Contact";
@@ -16,8 +17,9 @@ export default function InvitacionPage() {
       <InfoPadres />
       <PhotoCarousel />
       <Ubicaciones />
-      <Countdown targetDate="2026-01-24T11:45:00" />
+      <Countdown targetDate="2026-03-21T09:00:00" />
       <Itinerario />
+      <MusicPlayer />
       <DressCode />
       <Contact />
       <Footer/>

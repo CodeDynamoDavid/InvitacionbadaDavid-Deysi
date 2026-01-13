@@ -20,12 +20,13 @@ interface Evento {
 
 const eventos: Evento[] = [
   {
-    hora: "11:45 AM",
-    titulo: "Ceremonia Religiosa",
+    hora: "09:00 AM",
+    titulo: "Ceremonia Civil",
     Icono: ChurchOutlinedIcon,
   },
-  { hora: "02:30 PM", titulo: "Boda Civil", Icono: FavoriteBorderOutlinedIcon },
-  { hora: "03:30 PM", titulo: "Almuerzo", Icono: RestaurantOutlinedIcon },
+  { hora: "11:00 AM", titulo: "Ceremonia Cristiana", Icono: FavoriteBorderOutlinedIcon },
+  { hora: "01:30 PM", titulo: "recepcion", Icono: RestaurantOutlinedIcon },
+  { hora: "02:00 PM", titulo: "Almuerzo", Icono: CelebrationOutlinedIcon },
   { hora: "04:30 PM", titulo: "Fiesta", Icono: CelebrationOutlinedIcon },
 ];
 

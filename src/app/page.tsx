@@ -105,10 +105,12 @@ export default function Home() {
 
   const handleOpenEnvelope = () => {
     setIsOpen(true);
+    localStorage.setItem("musicaPlay", "true");
     setTimeout(() => {
       router.push("/invitacion");
     }, 1100);
   };
+  
 
   return (
     <main className="min-h-screen bg-[#f4f9ff] flex flex-col items-center justify-center p-4 overflow-hidden relative">
@@ -157,7 +159,7 @@ export default function Home() {
             <h2
               className={`${scriptFont.className} text-sky-900/70 text-4xl md:text-5xl leading-tight`}
             >
-              2 pases
+              los pases para que nos acompañes
             </h2>
             <div className="mt-1 w-full">
               <DividerWithIcon Icon={PentagonOutlinedIcon} />
