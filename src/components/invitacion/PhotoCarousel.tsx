@@ -14,7 +14,7 @@ interface Photo {
 }
 
 const PHOTOS: Photo[] = [
-  { src: "/foto1.jpeg", id: 1, caption: "Nuestro primer viaje", size: "large" },
+  { src: "/par.jpg", id: 1, caption: "Nuestro primer viaje", size: "large" },
   { src: "/foto1.jpeg", id: 2, caption: "Momentos mágicos", size: "small" },
   { src: "/foto1.jpeg", id: 3, caption: "Caminando juntos", size: "small" },
   { src: "/foto1.jpeg", id: 4, caption: "Para siempre", size: "large" },
