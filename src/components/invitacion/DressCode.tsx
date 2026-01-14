@@ -22,7 +22,7 @@ export default function DressCode() {
           <div className="flex flex-col items-center" data-aos="fade-right">
             <div className="relative w-full aspect-4/5 overflow-hidden rounded-t-full shadow-sm mb-6 grayscale hover:grayscale-0 transition-all duration-700">
               <Image 
-                src="/foto1.jpeg" 
+                src="/dres.jpg" 
                 alt="Ellos" 
                 fill 
                 className="object-cover"
@@ -37,7 +37,7 @@ export default function DressCode() {
           <div className="flex flex-col items-center" data-aos="fade-left">
             <div className="relative w-full aspect-4/5 overflow-hidden rounded-t-full shadow-sm mb-6 grayscale hover:grayscale-0 transition-all duration-700">
               <Image 
-                src="/foto1.jpeg" 
+                src="/ella.jpeg" 
                 alt="Ellas" 
                 fill 
                 className="object-cover"

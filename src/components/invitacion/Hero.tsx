@@ -27,7 +27,7 @@ export default function Hero() {
     <section className="relative h-screen w-full flex flex-col items-center justify-center text-center p-8 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/foto1.jpeg"
+          src="/home.png"
           alt="David y Deysi"
           fill
           priority
