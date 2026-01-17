@@ -25,8 +25,8 @@ const eventos: Evento[] = [
     Icono: ChurchOutlinedIcon,
   },
   { hora: "11:00 AM", titulo: "Ceremonia Cristiana", Icono: FavoriteBorderOutlinedIcon },
-  { hora: "01:30 PM", titulo: "recepcion", Icono: RestaurantOutlinedIcon },
-  { hora: "02:00 PM", titulo: "Almuerzo", Icono: CelebrationOutlinedIcon },
+  { hora: "01:30 PM", titulo: "recepcion", Icono: CelebrationOutlinedIcon },
+  { hora: "02:00 PM", titulo: "Almuerzo", Icono: RestaurantOutlinedIcon },
   { hora: "04:30 PM", titulo: "Fiesta", Icono: CelebrationOutlinedIcon },
 ];
 
